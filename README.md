@@ -186,18 +186,31 @@ setCharacters(data.results);
 ### Responsabilidad única de los componentes
 
 Estas son las funciones de los componentes:
+
 Header: muestra el encabezado y la presentación de la aplicación.
+
 SearchBar: contiene el campo para buscar personajes por nombre.
+
 StatusFilter: permite filtrar los personajes por su estado.
+
 CharacterGrid: organiza y muestra el listado de personajes.
+
 CharacterCard: presenta la información principal de cada personaje.
+
 CharacterModal: muestra información adicional del personaje seleccionado.
+
 LoadingSpinner: presenta un indicador mientras se cargan los datos.
+
 ErrorMessage: informa cuando ocurre un error y permite volver a intentar la consulta.
+
 EmptyState: muestra un mensaje cuando no existen resultados.
+
 Pagination: permite navegar entre las diferentes páginas de personajes.
+
 useCharacters: administra la consulta de personajes, el estado de carga y los errores.
+
 characterService: se encarga de realizar la comunicación directa con la API.
+
 La lógica de obtención de datos también se separó en el custom hook:
 
 ```text
