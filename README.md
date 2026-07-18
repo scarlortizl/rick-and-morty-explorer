@@ -337,5 +337,5 @@ y el hook `useEffect` para ejecutar la consulta a la API cada vez que cambiaban 
 
 La separación del proyecto en componentes ayuda a mantener el código más organizado y no tener todo mezclado, esto facilita la lectura, reutilización y mantenimiento del code.
 
-Uno de los principales aprendizajes fue manejar diferentes estados de una petición, como la carga, el éxito, los resultados vacíos y los errores. Esto permite ofrecer una mejor experiencia al usuario y no limitar la aplicación únicamente a mostrar información cuando todo funciona correctamente.
+Lo mejor fue aprender como manejar diferentes estados de una petición, como la carga, el éxito, los resultados vacíos y los errores. Dando una mejor experiencia al usuario y no limitar la aplicación únicamente a mostrar información cuando todo funciona correctamente.
 
